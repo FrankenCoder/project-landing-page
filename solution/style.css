@@ -9,3 +9,71 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/*HEADER SECTION*/
+
+.header {
+    height: 10vh;
+    flex: 1 1 auto;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    height: 45vh;
+    flex: 1 1 auto;
+}
+
+/* INFO SECTION */
+
+.info {
+    height: 45vh;
+    flex: 1 1 auto;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    flex: 1 1 auto;
+}
+
+/* SIGN-UP SECTION */
+
+.sign-up {
+    height: 40vh;
+    display: grid;
+    flex: 1 1 auto;
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    display: flex;
+    height: 10vh;
+    flex: 1 1 auto;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* backgraund colors*/
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+.info, .sign-up {
+    background-color: #FFFFFF;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
