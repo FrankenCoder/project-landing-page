@@ -28,7 +28,32 @@ body {
 /* INFO SECTION */
 
 .info {
-    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    flex: 1 1 auto;
+}
+
+.info-header-text {
+    display: flex; 
+    justify-content: center;
+}
+
+.info-cards {
+    display: flex;
+    flex: 2 1 auto;
+    justify-content: center;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+}
+
+.card-text {
+    display: flex;
     flex: 1 1 auto;
 }
 
@@ -115,6 +140,15 @@ h2, h5 {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+/* text font properties*/
+
+.info-header-text{
+    font-family: 'Roboto';
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 /* Estilo base del botón */
