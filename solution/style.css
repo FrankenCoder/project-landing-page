@@ -39,6 +39,12 @@ body {
     flex-direction: column;
     height: 50vh;
     flex: 1 1 auto;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
 }
 
 /* SIGN-UP SECTION */
@@ -109,4 +115,26 @@ h2, h5 {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+/* Estilo base del botón */
+
+.mi-boton {
+  background-color: #007bff; /* Color de fondo */
+  color: white;              /* Color del texto */
+  padding: 10px 20px;        /* Espaciado interno */
+  border: none;              /* Eliminar borde predeterminado */
+  border-radius: 5px;        /* Esquinas redondeadas */
+  cursor: pointer;           /* Cambia el cursor a mano */
+  transition: 0.3s;          /* Animación suave */
+}
+
+/* Efecto al pasar el mouse (:hover) */
+.mi-boton:hover {
+  background-color: #0056b3; /* Cambia a un color más oscuro */
+}
+
+/* Efecto al hacer clic (:active) */
+.mi-boton:active {
+  transform: scale(0.98);    /* Efecto de reducción */
 }
