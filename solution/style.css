@@ -49,6 +49,39 @@ body {
     flex: 1 1 auto;
 }
 
+.action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px;
+    border-radius: 10px; 
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    font-family: 'Roboto';
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-text, .secondary-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2, h5 {
+    display: contents;
+}
+
 
 /* FOOTER SECTION */
 
