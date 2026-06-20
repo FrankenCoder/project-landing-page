@@ -13,10 +13,34 @@ body {
 /*HEADER SECTION*/
 
 .header {
+    display: flex;
     height: 10vh;
     flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
 }
 
+.header-logo {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;    
+}
+
+.header-links {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.links li {
+    margin: 10px;
+}
 
 /* HERO SECTION */
 
@@ -195,6 +219,18 @@ h2, h5 {
 
 
 /* HERO SECTION */
+
+.header-logo {
+    font-family: 'Roboto';
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    font-family: 'Roboto';
+    color: #E5E7EB;
+    font-size: 18px;
+}
 
 .hero-main-text {
     font-family: 'Roboto';
