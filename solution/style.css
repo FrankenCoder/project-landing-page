@@ -39,6 +39,11 @@ body {
     justify-content: center;
 }
 
+.info-header-text p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .info-cards {
     display: flex;
     flex: 2 1 auto;
@@ -57,6 +62,12 @@ body {
     flex: 1 1 auto;
 }
 
+.card-text p {
+    text-align: center;
+}
+
+
+
 /* QUOTE SECTION */
 
 .quote {
@@ -64,12 +75,8 @@ body {
     flex-direction: column;
     height: 50vh;
     flex: 1 1 auto;
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: lighter;
-    color: #1f2937;
     align-items: center;
-    justify-content: center;
+    
 }
 
 /* SIGN-UP SECTION */
@@ -149,6 +156,29 @@ h2, h5 {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+}
+
+.card-text {
+    font-family: 'Roboto';
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.quote-text{
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.quote-sign {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+    text-align: end;
 }
 
 /* Estilo base del botón */
