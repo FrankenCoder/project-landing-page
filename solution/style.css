@@ -21,10 +21,47 @@ body {
 /* HERO SECTION */
 
 .hero {
+    display: flex;
     height: 45vh;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-width: 460px;
+    max-height: 225px;
+}
+
+.hero-right {
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 460px;
+    max-height: 225px;
+}
+
+.hero-img {
+  width: 100%;            /* Ocupa todo el ancho de su contenedor */
+
+  height: auto;           /* La altura se ajusta proporcionalmente */
+  border-radius: 8px;     /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
+}
+
+.hero-main-text {
     flex: 1 1 auto;
 }
 
+.hero-secondary-text {
+    flex: 1 1 auto;
+}
+
+.hero-button {
+    flex: 1 1 auto;
+}
 /* INFO SECTION */
 
 .info {
@@ -135,6 +172,9 @@ h2, h5 {
 
 }
 
+
+
+
 /* backgraund colors*/
 
 .header, .hero, .footer {
@@ -149,7 +189,27 @@ h2, h5 {
     background-color: #E5E7EB;
 }
 
-/* text font properties*/
+/************************/
+/* text font properties */
+/***********************/
+
+
+/* HERO SECTION */
+
+.hero-main-text {
+    font-family: 'Roboto';
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-family: 'Roboto';
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* INFO SECTION */
 
 .info-header-text{
     font-family: 'Roboto';
@@ -163,6 +223,8 @@ h2, h5 {
     color: #1f2937;
     font-size: 18px;
 }
+
+/* QUOTE SECTION*/
 
 .quote-text{
     font-family: 'Roboto';
